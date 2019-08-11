@@ -1,7 +1,7 @@
 # hello-world
-LiuWei
-Chinese girl
-born in 2001
-freshman
-cs
+LiuWei;
+Chinese girl;
+born in 2001;
+freshman;
+cs;
 ~~~
