@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	char s[10];
+	int n;
+	scanf("%d", &n);
+	while (n--)
+	{
+		scanf("%s", s);
+		if (s[0] + s[1] + s[2] == s[3] + s[4] + s[5])
+			printf("You are lucky!\n");
+		else
+			printf("Wish you good luck.\n");
+	}
+	return 0;
+}
