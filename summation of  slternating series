@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-int i,n;
-double m,f;
-m=0.0;
-f=1.0;
-n>0;
-scanf("%d",&n);
-for(i=1;i<=n;i++)
-{
-m+=(f*i)/(2*i-1);
-f*=-1;
-}
-printf("%.3lf\n",m);
-return 0;
+	int i, n;
+	double m, f;
+	m = 0.0;
+	f = 1.0;
+	n > 0;
+	scanf("%d", &n);
+	for (i = 1; i <= n; i++)
+	{
+		m += (f * i) / (2 * i - 1);
+		f *= -1;
+	}
+	printf("%.3lf\n", m);
+	return 0;
 }
